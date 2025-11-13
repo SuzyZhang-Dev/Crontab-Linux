@@ -9,13 +9,13 @@ A scheduled cron job runs the script regularly.
 The index.html page reads the text file using JavaScript (fetch()) and displays the news in a formatted table.
 
 ## 2. Folder Structure
-
+```
 ~/public_html/
 │── index.html
 │── style.css
 │── script.js
 │── yle_fi_rss.txt     ← generated automatically by cron + Python
-
+```
 
 Python script is located in:
 ```
